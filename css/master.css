@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --color-three: #7b68ee;
+  --color-eight: #e6e6fa;
+  --color-eight: #fefefe;
+
+  --color-one: #add8e6;
+  --color-two: #87ceeb;
+  --color-four: #4682b4;
+  --color-five: #5f9ea0;
+  --color-six: #008080;
+  --color-seven: #6a5acd;
+  --color-nine: #9370db;
+  --color-ten: #483d8b;
+  --color-eleven: #eee8aa;
+  --color-twelve: #bdb76b;
+  --color-thirteen: #2e8b57;
+  --color-thirteen: #008080;
+  --color-thirteen: #6b8e23;
+  --color-thirteen: #f08080;
+  --color-thirteen: #cd5c5c;
+  --color-thirteen: #b22222;
+  --color-thirteen: #ff8c00;
+}
+
+body {
+  font-family: roboto, open-sans;
+  background-color: #7b68ee80;
+}
+html {
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+.github {
+  width: 600px;
+  margin: auto;
+  padding: 100px 10px;
+  border-radius: 15px;
+  height: 100%;
+}
+.github .title {
+  display: block;
+  font-size: 40px;
+  font-weight: 500;
+  background-color: #e6e6fa;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+.github .action {
+  padding: 20px;
+  background-color: #e6e6fa;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.github .action .input {
+  all: unset;
+  width: 70%;
+  height: 30px;
+  background-color: #fefefe;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 15px;
+}
+.github .action button {
+  all: unset;
+  display: inline-block;
+  width: 14%;
+  height: 30px;
+  background-color: #7b68ee;
+  padding: 10px 20px;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 15px;
+  transition: 0.5s;
+  cursor: pointer;
+  color: white;
+  transition: 0.5s;
+}
+.github .action button:hover {
+  background-color: #7b68ee90;
+}
+.github .process {
+  margin-top: 20px;
+}
+.github .process .err {
+  display: none;
+  font-size: 20px;
+  padding: 10px;
+}
+.github .process .active {
+  display: block;
+}
+.github .process .profile {
+  padding: 20px;
+  background-color: #e6e6fa;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.github .process .profile {
+  display: flex;
+}
+.github .process .profile img {
+  width: 100px;
+  border-radius: 15px;
+}
+.github .process .profile > div {
+  padding: 0 10px;
+  width: 100%;
+}
+.github .process .profile div .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.github .process .profile .name {
+  font-size: 22px;
+  font-weight: 500;
+}
+.github .process .profile button {
+  all: unset;
+  display: inline-block;
+  background-color: #7b68ee;
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  color: white;
+  margin-left: auto;
+  transition: 0.5s;
+}
+.github .process .profile button:hover {
+  background-color: #7b68ee90;
+}
+
+.github .process .profile .bio {
+  display: block;
+  margin: 10px 0;
+  font-size: 13px;
+}
+.github .process .profile .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.github .process .profile .bottom span {
+  font-size: 13px;
+}
+.github .process .repos {
+  padding: 20px;
+  background-color: #e6e6fa;
+  border-radius: 15px;
+}
+.github .process .repo {
+  background-color: #fefefe;
+  margin: 10px 0;
+  padding: 10px 20px;
+  border-radius: 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+}
+.github .process .repo:hover {
+  background-color: #7b68ee80;
+}
+.github .process .repo .number {
+  margin: 10px;
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+.github .process .repo .name {
+  font-size: 18px;
+}
+.github .process .repo button {
+  all: unset;
+  display: inline-block;
+  background-color: #7b68ee;
+  padding: 5px 10px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  color: white;
+  margin-left: auto;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 30px;
+  text-align: center;
+  background-color: #eee;
+  width: 100%;
+  font-size: 18px;
+}
+footer span span {
+  font-weight: bold;
+}
